@@ -108,3 +108,82 @@ header{
 }
 
 /* mindset container styles start from here  */
+
+
+.mindset-container{
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    border: none;
+}
+.mindset-content{
+    background-image: url(/images/gradient1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.mindset-title{
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+/* footer container styles start from here  */
+
+footer{
+    background-color: black;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 2rem;
+    padding: 5rem 0rem;
+}
+
+.future-content{
+    color: #ffffff;
+    width: 50%;
+}
+
+.future-description{
+    margin: 0.5rem 0rem;
+    color: #c0bcbcf1;
+}
+
+.site-img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.subscribe-content{
+    color: #ffffff;
+}
+
+.subscribe-content input{
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.subscribe-btn{
+    display: block;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 1rem;
+}
