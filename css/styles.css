@@ -66,6 +66,10 @@ header{
     width: 22rem;
 }
 
+.content-title{
+    font-size: xx-large;
+    font-weight: 700;
+}
 
 .my-failure{
     display: flex;
@@ -73,3 +77,34 @@ header{
     align-items: center;
     gap: 0.6rem;
 }
+
+
+/* My Plans container styles start from here  */
+.plans-container{
+    margin-bottom: 3rem;
+}
+
+
+.plans-title{
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.plans-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.plan p{
+    color: #666161f1;
+}
+
+.plan h4{
+    margin: 1rem 0rem;
+}
+
+/* mindset container styles start from here  */
