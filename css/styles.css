@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.space{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* banner container start from here  */
+
+header{
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.banner-content{
+    text-align: right;
+    width: 45%;
+    padding: 10rem 0rem;
+}
+
+.banner-title{
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.banner-description{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.banner-btn{
+    background-color: #ffffff;
+    color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-weight: 700;
+    font-size: medium;
+}
